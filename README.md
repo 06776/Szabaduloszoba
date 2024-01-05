@@ -1,31 +1,23 @@
 # SzabaduloszobaPatrikHajdara
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
+Ez a projekt az Angular keretrendszer 16.2.3-as verziójával készült
 
-## Development server
+## Projekt klónozása
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Parancssorba (egy tetszőlegesen kijelölt mappában) illeszd be a projekt kódját a 'git clone' szöveg után
 
-## Code scaffolding
+## Függőségek telepítése
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+A sikeres klónozás után lépj be a leklónozott mappába a 'cd mappanev' parancs segítségével. Ezt követően használd az 'npm install' parancsot, mely automatikusan telepít minden szükséges node modul-t
 
-## Build
+## Projekt indítása
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Ha a node_modules mappa már a projekt része, a következő paranccsal indítható az Angular-os projekt: 'ng serve -o', ahol a "-o" azt jelenti, hogy az oldal automatikusan megnyílik az alapértelmezett böngészőben egy localhost szerveren
 
-## Running unit tests
+## Segítség az Angular-ral kapcsolatban
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+További információkért használd a parancssorban vagy a VS Code termináljában az 'ng help' parancsot, vagy látogass el ide: (https://angular.io/cli)
 
 ## Created by
 
-&copy; 2024 Patrik Hajdara | Minden jog fenntartva <br> BZSH Külkereskedelmi Technikum
+&copy; 2024 Patrik Hajdara <br> All rights reserved <br> BZSH Külkereskedelmi Technikum
